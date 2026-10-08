@@ -1,0 +1,12 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+button {
+    padding: 5px;
+}
+
+#cookieImage {
+    width: 500px;
+}
