@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>The Power of Sequencing</title>
     <link rel="stylesheet" href="style.css">
@@ -8,9 +9,12 @@
 <body>
 
     <h1>The Power of Sequencing</h1>
-    <p>How does the order of images change the story?</p>
 
-    <div>
+    <p class="intro">
+        The order of images can change the way we understand a story.
+    </p>
+
+    <div class="story-buttons">
         <button id="story1">Story 1</button>
         <button id="story2">Story 2</button>
     </div>
@@ -18,12 +22,18 @@
     <img id="cookieImage" src="images/dough.png" alt="Cookie story">
 
     <h2 id="stage">Beginning</h2>
-    <p id="description">It starts with cookie dough.</p>
 
-    <button id="previous">Previous</button>
-    <button id="next">Next</button>
+    <p id="description">
+        It starts with cookie dough.
+    </p>
+
+    <div class="navigation">
+        <button id="previous">Previous</button>
+        <button id="next">Next</button>
+    </div>
 
     <script src="script.js"></script>
 
 </body>
+
 </html>
